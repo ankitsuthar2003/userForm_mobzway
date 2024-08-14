@@ -32,6 +32,8 @@ app.use('/api/users', userRoutes);
 //         message: 'Your server is up and running....'
 //     });
 // });
+
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/index.html'));
 });
