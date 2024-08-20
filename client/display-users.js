@@ -1,6 +1,6 @@
 function getUsers() {
     $.ajax({
-        url: 'http://localhost:4000/api/users',
+        url: 'https://userform-mobzway.onrender.com/api/users',
         type: 'GET',
         success: function(users) {
             const usersTable = $('#usersTable');
